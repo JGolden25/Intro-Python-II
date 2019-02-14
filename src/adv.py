@@ -38,6 +38,45 @@ room['treasure'].s_to = room['narrow']
 #
 # Main
 #
+room["outside"].populate_item(
+    Item(
+        "Crimson", "The weapon fills its bearer with an unquenchable thirst for blood."
+    )
+)
+room["outside"].populate_item(
+    Item("Tonic", "Seals wounds and mends broken bones for all injuries sustained.")
+)
+room["foyer"].populate_item(
+    Item(
+        "Butcher",
+        "Embodiment of the madness and depravity that overwhelmed the people of Cairn following the Grim Dawn.",
+    )
+)
+room["overlook"].populate_item(
+    Item(
+        "Final",
+        "Forged by railyard workers during a desparate battle against the rising Chthonian forces.",
+    )
+)
+room["narrow"].populate_item(
+    Item(
+        "Codex",
+        "Forbidden texts of the witch god Solael, as recorded by Cabalist Hester Maughan.",
+    )
+)
+room["treasure"].populate_item(
+    Item(
+        "Glyph",
+        "Signet granted by Kelphat'Zoth, Grand Harbinger of Ch'Thon, upon his most loyal followers.",
+    )
+)
+room["narrow"].populate_item(
+    Item(
+        "Aegis",
+        "The guiding light of Ishtak cleanses of pain and fills with renewed resolve.",
+    )
+)
+
 
 # Make a new player object that is currently in the 'outside' room.
 
